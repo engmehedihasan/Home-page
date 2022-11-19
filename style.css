@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.section_one{
+    background-image: url(pg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text_area{
+    padding-top: 120px;
+    padding-left: 300px;
+    font-size: 30px;
+    color: #fff;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.work_section{
+    background-color: black;
+    padding-top: 90px;
+}
+
+.work{
+    color: #fff;
+    padding-left: 450px;
+    padding-bottom: 50px;
+    font-size: 50px;
+}
+
+.grid{
+    padding-left: 80px;
+    padding-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    
+}
+
+.grid1{
+    padding: 10px;
+    margin-top: 20px;
+    width: 320px;
+    height: 400px;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.grid1:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.grid1 h1, p {
+    padding: 2px;
+    padding-left: 8px;
+}
+
+.im{
+    width: 325px;
+    height: 300px;
+}
+
+.contact_section{
+    max-width: 100%;
+    background-color: #515603;
+    padding: 50px;
+    font-size: 25px;
+    color: #fff;
+    
+    
+}
+
+.about_section{
+    max-width: 100%;
+    background-color: #722300;
+    padding: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.aboutme{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr)); 
+}
+
+.last{
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    padding: 25px;
+    align-items: center;
+}
+
+.last_text{
+    padding-left: 550px;
+}
